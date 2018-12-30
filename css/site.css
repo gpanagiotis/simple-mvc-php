@@ -1,0 +1,35 @@
+@media (min-width: 1200px) {
+    .container-fluid {
+        max-width: 1280px;
+    }
+}
+
+.navbar {
+    /*z-index: 10000;*/
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+​
+.pagination {
+    list-style-type: none;
+}
+
+.pagination li {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.pagination-current {
+    color: red;
+    font-weight: bold;
+}
+
+
+.display-none {
+    display: none !important;
+}
+

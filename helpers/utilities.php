@@ -74,7 +74,7 @@ class Utilities
 
 function sanitizeDate($var)
 {
-    $sanitized = strtotime($var) ? "'" . date('Y-m-d', strtotime($var)) . "'" : 'null';
+    $sanitized = strtotime($var) ? "'".date('Y-m-d', strtotime($var))."'" : 'null';
 //    echo $sanitized;
 //    exit;
     return $sanitized;
@@ -92,6 +92,8 @@ function sanitizeString($var, $length)
         return "'" . $sanitized . "'";
     }
 }
+
+
 
 
 function sanitizeNumber($var)

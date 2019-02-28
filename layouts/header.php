@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>Personnel | IEP</title>
+    <title>simple-mvc | PHP</title>
     <meta name="description" content="This is an example.">
     <link rel="stylesheet" type="text/css" href="<?php echo URL_PATH . '/css/site.css'; ?>">
     <!-- Latest compiled and minified CSS -->
